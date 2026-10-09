@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket       = "mrinal7-test-tfstate"
+    bucket       = "mrinal14-test-tfstate"
     key          = "demo/terraform.tfstate"
-    region       = "us-west-2"
+    region       = "us-west-1"
     use_lockfile = true
 
 
