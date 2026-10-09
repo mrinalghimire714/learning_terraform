@@ -49,5 +49,5 @@ resource "aws_instance" "demo" {
 
 resource "aws_key_pair" "demo" {
   key_name   = "mrinal14-demo-key"
-  public_key = file("~/.ssh/id_ed25519.pub")
+  public_key = file("~/demo.pub")
 }
